@@ -1,0 +1,18 @@
+{
+  "branch": "main",
+  "depends_recipe": "",
+  "description_control": "vfd controller",
+  "description_recipe": "vfd controller",
+  "history_source_dir": "GigaBlueVFDControl",
+  "internal_package_name": "enigma2-plugin-systemplugins-vfdcontrol",
+  "module_dir_name": "GigaBlueVFDControl",
+  "output_subdir": "GigaBlueVFDControl",
+  "package_name": "enigma2-plugin-systemplugins-vfdcontrol-giga-blue-v-f-d-control",
+  "plugin_src_rel": "GigaBlueVFDControl",
+  "python_package": "GigaBlueVFDControl",
+  "rdepends_recipe": "",
+  "replaces": "",
+  "repo_name": "GigaBlueVFDControl",
+  "rrecommends": "",
+  "rreplaces": ""
+}
