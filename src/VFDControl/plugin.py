@@ -1,5 +1,5 @@
 from __future__ import print_function
-#Giga
+# Giga
 # for localized messages
 from . import _
 
@@ -527,7 +527,7 @@ class LED_GigaSetup(ConfigListScreen, Screen):
 
 	def Update(self):
 		# still needed? I doubt it, as i can't see a difference for gbquad and other models with LCD
-		#if BOX != "gbquad":
+		# if BOX != "gbquad":
 		self.createSetup()
 		initLED()
 
