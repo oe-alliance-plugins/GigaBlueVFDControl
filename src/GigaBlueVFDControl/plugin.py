@@ -24,7 +24,7 @@ try:
 	from Components.SystemInfo import BoxInfo
 	IMAGEDISTRO = BoxInfo.getItem("distro")
 	BOX = BoxInfo.getItem("machinebuild")
-except:
+except ImportError:
 	from boxbranding import getImageDistro, getBoxType
 	IMAGEDISTRO = getImageDistro()
 	BOX = getBoxType()
@@ -280,7 +280,7 @@ class Channelnumber:
 					if hdd[1].getDeviceName().startswith("/dev/sda"):
 						if not hdd[1].isSleeping():
 							led_sda1 = config.plugins.VFD_Giga.ledSDA1.getValue()
-			except:
+			except Exception:
 				pass
 		led_sdb1 = "0"
 		if config.plugins.VFD_Giga.ledSDB1.getValue() != "0":
@@ -289,17 +289,17 @@ class Channelnumber:
 					if hdd[1].getDeviceName().startswith("/dev/sdb"):
 						if not hdd[1].isSleeping():
 							led_sdb1 = config.plugins.VFD_Giga.ledSDB1.getValue()
-			except:
+			except Exception:
 				pass
 
 		try:
 			# Not all images have getIndicatorRecordingsCount
 			recordings = self.session.nav.getIndicatorRecordingsCount()
-		except:
+		except Exception:
 			try:
 				# Not all images support recording type indicators / TODO: This should be replaced by getIndicatorRecordingsCount
 				recordings = self.session.nav.getRecordings(False, Components.RecordingConfig.recType(config.recording.show_rec_symbol_for_rec_types.getValue()))
-			except:
+			except Exception:
 				recordings = self.session.nav.getRecordings()
 		led_rec = "0"
 		if recordings:
