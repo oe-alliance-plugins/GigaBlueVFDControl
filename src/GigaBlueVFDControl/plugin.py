@@ -229,7 +229,6 @@ class Channelnumber:
 		if config.plugins.VFD_Giga.showClock.value == 'True' or config.plugins.VFD_Giga.showClock.value == 'True_All' or config.plugins.VFD_Giga.showClock.value == 'True_Switch':
 			clock = str(localtime()[3])
 			clock1 = str(localtime()[4])
-			clk = str(localtime()[5])
 			if config.plugins.VFD_Giga.timeMode.value != '24h':
 				if int(clock) > 12:
 					clock = str(int(clock) - 12)
@@ -398,7 +397,7 @@ def initLED():
 		cmd = 'echo STB does not support to show clock in Deep Standby'
 	else:
 		cmd = 'echo ' + str(forcmd) + ' > /proc/stb/fp/enable_clock'
-	res = system(cmd)
+	system(cmd)
 
 	if config.plugins.VFD_Giga.showClock.value == 'Off':
 		vfd_write("    ")
