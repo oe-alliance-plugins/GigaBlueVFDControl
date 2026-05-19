@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-03 07:54+0100\n"
+"POT-Creation-Date: 2026-04-08 10:12+0200\n"
 "PO-Revision-Date: 2021-06-01 04:02+0300\n"
 "Last-Translator: tomppaa <www.huoltovalikko.com>\n"
 "Language-Team: Tomppaa\n"
@@ -13,101 +13,134 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.4.3\n"
 
+#: ../plugin.py:41
 msgid "Always off"
 msgstr "Aina pois päältä"
 
+#: ../plugin.py:468
 msgid "Blink Record Led"
 msgstr "Led vilkkuu tallentaessa"
 
+#: ../plugin.py:46
 msgid "Blue"
 msgstr "Sininen"
 
+#: ../plugin.py:476 ../plugin.py:505
 msgid "Brightness"
 msgstr "Kirkkaus"
 
+#: ../plugin.py:477 ../plugin.py:507
 msgid "Brightness Standby"
 msgstr "Kirkkaus Valmiustila"
 
+#: ../plugin.py:441
 msgid "Cancel"
 msgstr "Peruuta"
 
+#: ../plugin.py:654
 msgid "Change LED display settings"
 msgstr ""
 
+#: ../plugin.py:485
 msgid "Channel number with leading zeros"
 msgstr "Kanavanumero etu nollilla"
 
+#: ../plugin.py:41
 msgid "Channelnumber in Standby Clock"
 msgstr "Kanavannumero valmiustilassa"
 
+#: ../plugin.py:41
 msgid "Channelnumber in Standby off"
 msgstr "Kanavanumero valmiustilassa pois päältä"
 
+#: ../plugin.py:41
 msgid "Channelnumber/Clock in Standby Clock"
 msgstr "Kanavanumero / kello valmiustilassa"
 
+#: ../plugin.py:41
 msgid "Clock always"
 msgstr "Näytä kello aina"
 
+#: ../plugin.py:568 ../plugin.py:570 ../plugin.py:577 ../plugin.py:588
 msgid "Display/LED"
 msgstr "Näyttö/LED"
 
+#: ../plugin.py:459 ../plugin.py:497
 msgid "Enable led"
 msgstr "Ota Led käyttöön"
 
+#: ../plugin.py:431
 msgid "GigaBlue Setup"
 msgstr "GigaBlue Asetukset"
 
+#: ../plugin.py:572 ../plugin.py:590
 msgid "LED"
 msgstr "LED asetukset"
 
+#: ../plugin.py:462
 msgid "Led Deep Standby"
 msgstr "Ledin virransäästötilassa"
 
+#: ../plugin.py:466
 msgid "Led state Deep Standby"
 msgstr "Ledin väri virransäästötilassa"
 
+#: ../plugin.py:469
 msgid "Led state HDD /dev/sda active"
 msgstr "Ledin väri HDD /dev/sda aktiivinen"
 
+#: ../plugin.py:470
 msgid "Led state HDD /dev/sdb active"
 msgstr "Ledin väri HDD /dev/sdb aktiivinen"
 
+#: ../plugin.py:463
 msgid "Led state RUN"
 msgstr "Ledin väri Käynnissä"
 
+#: ../plugin.py:467
 msgid "Led state Record"
 msgstr "Ledin väri Tallentaessa"
 
+#: ../plugin.py:464
 msgid "Led state Standby"
 msgstr "Ledin väri valmistilassa"
 
+#: ../plugin.py:42 ../plugin.py:43
 msgid "No"
 msgstr "Ei"
 
+#: ../plugin.py:46
 msgid "None"
 msgstr "Ei mitään"
 
+#: ../plugin.py:46
 msgid "Purple"
 msgstr "Violetti"
 
+#: ../plugin.py:46
 msgid "Red"
 msgstr "Punainen"
 
+#: ../plugin.py:442
 msgid "Save"
 msgstr "Tallenna"
 
+#: ../plugin.py:481 ../plugin.py:503
 msgid "Show clock in Deep Standby"
 msgstr "Näytä kello virransäästötilassa"
 
+#: ../plugin.py:479 ../plugin.py:501
 msgid "Show on VFD"
 msgstr "Näytä VFD:ssä"
 
+#: ../plugin.py:484
 msgid "Time mode"
 msgstr "Aikatila"
 
+#: ../plugin.py:446
 msgid "Update Date/Time"
 msgstr "Päivitä Päivä/Aika"
 
+#: ../plugin.py:42 ../plugin.py:43
 msgid "Yes"
 msgstr "Kyllä"

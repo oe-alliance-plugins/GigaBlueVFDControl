@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-03 07:54+0100\n"
+"POT-Creation-Date: 2026-04-08 10:12+0200\n"
 "PO-Revision-Date: 2019-06-24 13:27+0200\n"
 "Last-Translator: JR <openspateam@gmail.com>\n"
 "Language-Team: none\n"
@@ -16,102 +16,135 @@ msgstr ""
 "X-Generator: Poedit 1.8.7\n"
 "X-Poedit-SourceCharset: iso-8859-1\n"
 
+#: ../plugin.py:41
 msgid "Always off"
 msgstr "Siempre apagado"
 
+#: ../plugin.py:468
 msgid "Blink Record Led"
 msgstr "Parpadeo de LED al grabar"
 
+#: ../plugin.py:46
 msgid "Blue"
 msgstr "Azul"
 
+#: ../plugin.py:476 ../plugin.py:505
 msgid "Brightness"
 msgstr "Brillo"
 
+#: ../plugin.py:477 ../plugin.py:507
 msgid "Brightness Standby"
 msgstr "Brillo en reposo"
 
+#: ../plugin.py:441
 msgid "Cancel"
 msgstr "Cancelar"
 
+#: ../plugin.py:654
 msgid "Change LED display settings"
 msgstr ""
 
+#: ../plugin.py:485
 msgid "Channel number with leading zeros"
 msgstr "Número de canal con ceros a la izquierda"
 
+#: ../plugin.py:41
 msgid "Channelnumber in Standby Clock"
 msgstr "Número de canal - Reloj en reposo"
 
+#: ../plugin.py:41
 msgid "Channelnumber in Standby off"
 msgstr "Número de canal - Apagado en reposo"
 
+#: ../plugin.py:41
 msgid "Channelnumber/Clock in Standby Clock"
 msgstr "Número de canal/Reloj - Reloj en reposo"
 
+#: ../plugin.py:41
 msgid "Clock always"
 msgstr "Mostrar reloj siempre"
 
+#: ../plugin.py:568 ../plugin.py:570 ../plugin.py:577 ../plugin.py:588
 msgid "Display/LED"
 msgstr "Display/LED"
 
+#: ../plugin.py:459 ../plugin.py:497
 msgid "Enable led"
 msgstr "Activar LED"
 
+#: ../plugin.py:431
 msgid "GigaBlue Setup"
 msgstr ""
 
+#: ../plugin.py:572 ../plugin.py:590
 msgid "LED"
 msgstr ""
 
+#: ../plugin.py:462
 #, fuzzy
 msgid "Led Deep Standby"
 msgstr "Color del LED en reposo profundo"
 
+#: ../plugin.py:466
 msgid "Led state Deep Standby"
 msgstr "Color del LED en reposo profundo"
 
+#: ../plugin.py:469
 msgid "Led state HDD /dev/sda active"
 msgstr "Color del LED con el HDD /dev/sda activo"
 
+#: ../plugin.py:470
 msgid "Led state HDD /dev/sdb active"
 msgstr "Color del LED con el HDD /dev/sdb activo"
 
+#: ../plugin.py:463
 msgid "Led state RUN"
 msgstr "Color del LED en funcionamiento"
 
+#: ../plugin.py:467
 msgid "Led state Record"
 msgstr "Color del LED grabando"
 
+#: ../plugin.py:464
 msgid "Led state Standby"
 msgstr "Color del LED en reposo"
 
+#: ../plugin.py:42 ../plugin.py:43
 msgid "No"
 msgstr "No"
 
+#: ../plugin.py:46
 msgid "None"
 msgstr "Ninguno"
 
+#: ../plugin.py:46
 msgid "Purple"
 msgstr "Morado"
 
+#: ../plugin.py:46
 msgid "Red"
 msgstr "Rojo"
 
+#: ../plugin.py:442
 msgid "Save"
 msgstr "Guardar"
 
+#: ../plugin.py:481 ../plugin.py:503
 msgid "Show clock in Deep Standby"
 msgstr "Mostrar reloj en reposo profundo"
 
+#: ../plugin.py:479 ../plugin.py:501
 msgid "Show on VFD"
 msgstr "Mostrar en VFD"
 
+#: ../plugin.py:484
 msgid "Time mode"
 msgstr "Formato horario"
 
+#: ../plugin.py:446
 msgid "Update Date/Time"
 msgstr "Actualizar fecha/hora"
 
+#: ../plugin.py:42 ../plugin.py:43
 msgid "Yes"
 msgstr "Si"

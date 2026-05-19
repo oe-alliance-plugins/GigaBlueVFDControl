@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-03 07:54+0100\n"
+"POT-Creation-Date: 2026-04-08 10:12+0200\n"
 "PO-Revision-Date: 2016-05-07 13:27+0200\n"
 "Last-Translator: neoatomic <neoatomic@users.noreply.github.com>\n"
 "Language-Team: gerrit <fy@li.org>\n"
@@ -18,103 +18,136 @@ msgstr ""
 "X-Poedit-SourceCharset: iso-8859-15\n"
 "X-Generator: Poedit 1.8.7\n"
 
+#: ../plugin.py:41
 msgid "Always off"
 msgstr ""
 
+#: ../plugin.py:468
 msgid "Blink Record Led"
 msgstr ""
 
+#: ../plugin.py:46
 msgid "Blue"
 msgstr ""
 
+#: ../plugin.py:476 ../plugin.py:505
 msgid "Brightness"
 msgstr ""
 
+#: ../plugin.py:477 ../plugin.py:507
 msgid "Brightness Standby"
 msgstr ""
 
 #
+#: ../plugin.py:441
 msgid "Cancel"
 msgstr "Ôfbrekke"
 
+#: ../plugin.py:654
 msgid "Change LED display settings"
 msgstr ""
 
+#: ../plugin.py:485
 msgid "Channel number with leading zeros"
 msgstr ""
 
+#: ../plugin.py:41
 msgid "Channelnumber in Standby Clock"
 msgstr ""
 
+#: ../plugin.py:41
 msgid "Channelnumber in Standby off"
 msgstr ""
 
+#: ../plugin.py:41
 msgid "Channelnumber/Clock in Standby Clock"
 msgstr ""
 
+#: ../plugin.py:41
 msgid "Clock always"
 msgstr ""
 
+#: ../plugin.py:568 ../plugin.py:570 ../plugin.py:577 ../plugin.py:588
 msgid "Display/LED"
 msgstr ""
 
+#: ../plugin.py:459 ../plugin.py:497
 msgid "Enable led"
 msgstr ""
 
+#: ../plugin.py:431
 msgid "GigaBlue Setup"
 msgstr ""
 
+#: ../plugin.py:572 ../plugin.py:590
 msgid "LED"
 msgstr ""
 
+#: ../plugin.py:462
 msgid "Led Deep Standby"
 msgstr ""
 
+#: ../plugin.py:466
 msgid "Led state Deep Standby"
 msgstr ""
 
+#: ../plugin.py:469
 msgid "Led state HDD /dev/sda active"
 msgstr ""
 
+#: ../plugin.py:470
 msgid "Led state HDD /dev/sdb active"
 msgstr ""
 
+#: ../plugin.py:463
 msgid "Led state RUN"
 msgstr ""
 
+#: ../plugin.py:467
 msgid "Led state Record"
 msgstr ""
 
+#: ../plugin.py:464
 msgid "Led state Standby"
 msgstr ""
 
+#: ../plugin.py:42 ../plugin.py:43
 msgid "No"
 msgstr ""
 
+#: ../plugin.py:46
 msgid "None"
 msgstr ""
 
+#: ../plugin.py:46
 msgid "Purple"
 msgstr ""
 
+#: ../plugin.py:46
 msgid "Red"
 msgstr ""
 
 #
+#: ../plugin.py:442
 msgid "Save"
 msgstr "Opslaan"
 
+#: ../plugin.py:481 ../plugin.py:503
 msgid "Show clock in Deep Standby"
 msgstr ""
 
+#: ../plugin.py:479 ../plugin.py:501
 msgid "Show on VFD"
 msgstr ""
 
+#: ../plugin.py:484
 msgid "Time mode"
 msgstr ""
 
+#: ../plugin.py:446
 msgid "Update Date/Time"
 msgstr ""
 
+#: ../plugin.py:42 ../plugin.py:43
 msgid "Yes"
 msgstr ""
