@@ -200,30 +200,25 @@ class Channelnumber:
 
 	def getchannelnr(self):
 		if InfoBar.instance is None:
-			chnr = "----"
-			return chnr
-		MYCHANSEL = InfoBar.instance.servicelist
-		markersOffset = 0
-		myRoot = MYCHANSEL.getRoot()
-		mySrv = MYCHANSEL.servicelist.getCurrent()
-		chx = MYCHANSEL.servicelist.l.lookupService(mySrv)
-		if not MYCHANSEL.inBouquet():
-			pass
-		else:
+			return "----"
+		channelSelection = InfoBar.instance.servicelist
+		serviceRoot = channelSelection.getRoot()
+		currentService = channelSelection.servicelist.getCurrent()
+		if currentService is None:
+			return "----"
+		serviceIndex = channelSelection.servicelist.l.lookupService(currentService)
+		if serviceIndex < 0:
+			return "----"
+		markerCount = 0
+		if channelSelection.inBouquet():
 			serviceHandler = eServiceCenter.getInstance()
-			mySSS = serviceHandler.list(myRoot)
-			SRVList = mySSS and mySSS.getContent("SN", True)
-			for i in range(len(SRVList)):
-				if chx == i:
-					break
-				testlinet = SRVList[i]
-				testline = testlinet[0].split(":")
-				if testline[1] == "64":
-					markersOffset = markersOffset + 1
-		chx = (chx - markersOffset) + 1
-		rx = MYCHANSEL.getBouquetNumOffset(myRoot)
-		chnr = str(chx + rx)
-		return chnr
+			serviceIterator = serviceHandler.list(serviceRoot)
+			services = serviceIterator and serviceIterator.getContent("R", True)
+			if services is None:
+				return "----"
+			# Count plain markers (flag 64) without decoding service URLs or names.
+			markerCount = sum(1 for x in services[:serviceIndex] if x.flags == 64)
+		return str(serviceIndex - markerCount + 1 + channelSelection.getBouquetNumOffset(serviceRoot))
 
 	def prikaz(self):
 		if config.plugins.VFD_Giga.showClock.value == 'True' or config.plugins.VFD_Giga.showClock.value == 'True_All' or config.plugins.VFD_Giga.showClock.value == 'True_Switch':
